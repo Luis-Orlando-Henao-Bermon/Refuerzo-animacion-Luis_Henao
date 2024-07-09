@@ -1,0 +1,76 @@
+
+body{
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #d81434;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.pricipal {
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    gap: 1rem;
+    margin: auto;
+}
+input[type="radio"]{
+    display: none;  
+}
+.lab{
+    display: flex;
+    justify-content: space-between;
+    padding:0 1rem;
+    color: #2090ff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+p{
+    margin: 1rem;
+}
+.caja1 {
+    background-color: #fefefe;
+    height: 3.5rem;
+    overflow: hidden;
+    transition:0.2s;
+}
+#radio1:checked ~ .caja1{
+    height: 10rem;
+}
+.caja2 {
+    background-color: #fefefe;
+    height: 3.5rem;
+    overflow: hidden;
+    transition:0.2s;
+}
+#radio2:checked ~ .caja2{
+    height: 10rem;
+}
+.caja3 {
+    background-color: #fefefe;
+    height: 3.5rem;
+    overflow: hidden;
+    transition:0.2s;
+}
+#radio3:checked ~ .caja3{
+    height: 10rem;
+}
+.caja4 {
+    background-color: #fefefe;
+    height: 3.5rem;
+    overflow: hidden;
+    transition:0.2s;
+}
+#radio4:checked ~ .caja4{
+    height: 10rem;
+}
+.caja5 {
+    background-color: #fefefe;
+    height: 3.5rem;
+    overflow: hidden;
+    transition:0.2s;
+}
+#radio5:checked ~ .caja5{
+    height: 10rem;
+}
