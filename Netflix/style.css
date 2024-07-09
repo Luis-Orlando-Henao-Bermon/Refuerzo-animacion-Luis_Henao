@@ -1,0 +1,86 @@
+body{
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.principal {
+    display: flex;
+    gap: 0.8rem;
+    overflow: hidden;
+    height: 18rem;
+    height: 18rem;
+    align-items: end;
+}
+.barra1 {
+    width: 4rem;
+    rotate: 180deg;
+    height: 18rem;
+    animation-name: b1;
+    animation-duration: 3s;
+    background-color: #d60001;
+    animation-timing-function: linear;
+}
+.barra2 {    
+    position: relative;
+    left: -0.4rem;
+    bottom: -2rem;
+    width: 4rem;
+    height: 24rem;
+    background-color: red;
+    rotate: -27deg;
+    box-shadow: -44px 2px 80px black;
+    animation-timing-function: linear;
+    animation-name: b2;
+    animation-duration: 3s;
+}
+.barra3 {
+    animation-timing-function: linear;
+    width: 4rem;
+    height: 18rem;
+    animation-name: b3;
+    animation-duration: 3s;
+    background-color: red;
+    z-index: 1;
+}
+@keyframes b1 {
+    0%{
+        height: 0rem;
+    }    
+    15%{
+        height: 0rem;
+    }
+    33%{
+        height: 18rem;
+    }
+}
+@keyframes b2 {
+    0%{
+        left: -11rem;
+        bottom: 18rem;
+    }
+    33%{
+        left: -11rem;
+        bottom: 18rem;
+    }
+    66%{
+        left: -0.4rem;
+        bottom: -2.5rem;
+    }
+    
+}
+
+@keyframes b3 {
+    0%{
+        height: 0rem;
+    }
+    66%{
+        height: 0rem;
+    }
+    99%{
+        height: 18rem;
+    }
+}
