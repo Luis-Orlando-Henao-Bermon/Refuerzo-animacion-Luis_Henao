@@ -1,6 +1,7 @@
 body{
     width: 100vw;
     display: flex;
+    flex-direction: column;
     height: 100vh;
     background-color: black;
     margin: 0%;
@@ -83,4 +84,13 @@ body{
     99%{
         height: 18rem;
     }
+}
+.end{
+    position: relative;
+    top: -1rem;
+    width: 18rem;
+    height: 2rem;
+    background-color:black;
+    border-radius: 50%;
+    z-index: 2;
 }
