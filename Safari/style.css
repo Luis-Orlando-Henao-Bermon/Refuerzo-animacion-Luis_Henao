@@ -61,7 +61,6 @@ body{
 }
 .trianulo2 {
     height: 0;
-    rotate: 180deg;
     width: 0rem;
     border-bottom: 8rem solid white;
     border-left: 1rem solid transparent;
