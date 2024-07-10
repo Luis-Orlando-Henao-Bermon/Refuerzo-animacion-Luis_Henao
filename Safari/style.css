@@ -23,7 +23,7 @@ body{
 .circulo {
     width: 24rem;
     height: 24rem;
-    background-color: #1cb4fc;
+    background:linear-gradient(#24bcff, #2c5bc0);
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -77,3 +77,21 @@ body{
     border-radius: 2rem;
     box-shadow: 0px 0px 50px black;
 }
+
+.circulo span{
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: #fff;
+    transform:translateY(-160px) rotate(calc(10deg*var(--i)));
+    transform-origin: 1px 170px ;
+}   
+.circulo span::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 12px;
+    background-color: #fff;
+    transform-origin: 1px 150px ;
+    transform: rotate(5deg);
+}   
